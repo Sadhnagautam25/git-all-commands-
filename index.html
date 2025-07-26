@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Git all commands</title>
+  </head>
+  <body>
+    <h1>Git All Commands 📃</h1>
+    <h2>
+      Firstly ☝️ You are create REPO in Github website & cloning the Repository
+      in VS code create file and some changes then Add, commit and push the file
+      gitHub Repository.
+    </h2>
+    <ol>
+      <li>
+        <strong>Congiguring Git</strong>
+        <ul>
+          <li>
+            We are asking the git system
+            <strong>which account some doing changes and add the Code.</strong>
+            <br />
+            ➡️ Git => System are doing some changes in github Repository and add
+            the files so we are need the
+            <strong>Github Username and Useremail.</strong> <br />
+            <br /><strong> In your VS Code editor [Terminal]</strong>
+            <h4>Commands:-</h4>
+            <strong
+              ><mark>git config --globalusername"My user name"</mark></strong
+            >
+            <br />
+            <br />
+            <strong
+              ><mark>git config --globaluseremail"Useremail"</mark></strong
+            >
+            <br />
+            <br />
+            <strong><mark>git config --list</mark></strong>
+          </li>
+        </ul>
+      </li>
+      <br />
+      <hr />
+      <li>
+        <strong>Clone & Status</strong>
+        <ul>
+          <li>
+            <strong>Clone:</strong> cloning a Repository on your local machine.
+            <br />
+            <br />
+            <button>
+              Remote <br />
+              [Github]</button
+            >---------------------------------------
+            <button>
+              Local <br />
+              [Laptop/PC]
+            </button>
+            <pre>Github Repository 📃----Copy----paste on local machine</pre>
+            <br />
+            <strong>Command:-</strong> <br />
+            <br />
+            <strong><mark>git clone "github Repository link"</mark></strong>
+          </li>
+          <br />
+          <li>
+            <strong>Status:</strong> With the help of
+            <strong>git status</strong> we known that are file position. <br />
+            Display the status of the code. like:- <br />
+            <br />
+            <ul>
+              <li>
+                <strong>Untracked</strong> - New files git doesn't yet track
+                (Green color)
+              </li>
+              <li><strong>Modified</strong> - some changes (Yellow color)</li>
+              <li><strong>Staged</strong> - File is ready to the committed</li>
+              <li><strong>Unmodified</strong> - Unchanged</li>
+            </ul>
+          </li>
+          <br /><br />
+          <strong>Command:-</strong>
+          <br /><br />
+          <strong><mark>git status</mark></strong>
+        </ul>
+      </li>
+      <br />
+      <hr />
+      <li>
+        <strong>Basic Commands ⏺️</strong> <br /><br />
+        <ul>
+          <li>
+            <strong>cd :</strong> change Directory move inside the other folder.
+            <br />
+            <br />
+            <strong> <mark>cd "folder name"</mark></strong>
+          </li>
+          <br />
+          <li>
+            <strong>cd.. :</strong> Move outside the folder.
+            <br />
+            <br />
+            <strong><mark>cd..</mark></strong>
+          </li>
+          <br />
+          <li>
+            <strong><mark>pwd</mark></strong> : present working directory.
+          </li>
+          <br />
+          <li>
+            <strong><mark>ls</mark></strong> : List files <br />
+            checked how many files in our currently using
+            <strong>Repository.</strong>
+          </li>
+          <br />
+          <li>
+            <strong><mark>Ls -h / Ls -a</mark></strong> : To show and checked
+            hiddens files like: <strong>git file</strong>.
+          </li>
+        </ul>
+      </li>
+      <br />
+      <hr />
+      <li>
+        <strong>Add & Commit </strong> <br />
+        <br />
+        <img
+          src="/investigation JS/Images/add & commit.jpeg"
+          alt=""
+          srcset=""
+          width="300px"
+        />
+        <br />
+        <br />
+        <ul>
+          <li>
+            <strong>Add :</strong> Add new files or changed files in your
+            working directory to the git staging area. <br />
+            <br /><strong>Command :</strong>
+            <br />
+            <br />
+            <strong><mark>git add "file name"</mark></strong> <br /><br />
+            <strong><mark>git add .</mark></strong> - all files are selected to
+            add
+          </li>
+          <br />
+          <br />
+          <li>
+            <strong>Commit :</strong> It is the record of changed. <br />
+            <br />
+            <strong>Command :</strong> <br /><br />
+            <strong><mark>git commit -m "some message"</mark></strong>
+          </li>
+        </ul>
+      </li>
+      <br />
+      <hr />
+      <li>
+        <strong>Push Command </strong> <br /><br />
+        <ul>
+          <li>
+            <strong>Push</strong> : upload local repo content to remote repo.
+            <br />
+            <br />
+            <strong>Command :</strong> <br /><br />
+            <strong><mark>git push origin main</mark></strong>
+          </li>
+        </ul>
+      </li>
+      <br />
+      <hr />
+    </ol>
+
+    <h2>
+      Secondly ✌️ You are create file in VS code then your work send to Github
+      platform. <br />
+      <br />
+      <img
+        src="/investigation JS/Images/git init.png"
+        alt=""
+        srcset=""
+        width="600px"
+      />
+    </h2>
+    <button style="width: 500px; font-size: medium; line-height: 1.3">
+      Firstly you checked your file has <mark>git repo</mark> or not with the
+      help of <mark>Ls -h</mark> it doesn't has <mark>git repo</mark> then 1stly
+      you tracked your file in the <mark>git</mark> with the help of ⬇️
+    </button>
+    <br /><br />
+
+    <ul>
+      <li>
+        <strong><mark>git init</mark></strong
+        >: file convert in the git repo.
+      </li>
+      <br />
+      <button style="font-size: medium">
+        your file will be tracked in <mark>git repo</mark>
+      </button>
+    </ul>
+    <hr />
+
+    <h2>Complete your projects & changes 🗃️</h2>
+
+    <ul>
+      <li>
+        Untracked files or some changes in files to add
+        <mark>git add .</mark> all files
+      </li>
+      <br />
+      <li>
+        then, Commit the message <mark>git commit -m "some message"</mark>
+      </li>
+      <br />
+      <li>then, go to the github website create new one repository.</li>
+      <br />
+      <li>
+        github provide a <mark>git remote add origin "link"</mark> paste on the
+        VS code terminal.
+      </li>
+      <br />
+      <li>
+        checked - <mark>git remote -v</mark> - To verfied the remote which
+        repository to file is going.
+      </li>
+      <br />
+      <li>
+        <strong>checked branch :</strong> <strong>master branch</strong> convert
+        to <strong>main branch</strong> <br />
+        <br />
+        <ul>
+          <li><strong>Checked branch :</strong> <mark>git branch</mark></li>
+          <br />
+          <li>
+            <strong>Rename / Convert branch :</strong>
+            <mark>git branch -M main </mark>
+          </li>
+        </ul>
+      </li>
+      <br />
+      <li><strong>Last Push the Repository</strong></li>
+      <br />
+      <mark>git push -u origin main</mark>
+      <br />
+      ⬇️
+      <br />
+      In future just command <mark> git push</mark>
+    </ul>
+  </body>
+</html>
