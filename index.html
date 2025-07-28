@@ -217,7 +217,14 @@
       <br />
       <li>
         github provide a <mark>git remote add origin "link"</mark> paste on the
-        VS code terminal.
+        VS code terminal. <br />
+        <br />
+        <img
+          src="/git-all-commands-/images/remote changes.png"
+          alt=""
+          srcset=""
+          width="1100px"
+        />
       </li>
       <br />
       <li>
@@ -298,7 +305,7 @@
         </ul>
       </li>
     </ul>
-    
+
     <hr />
     <h2>Merging Code</h2>
     <ol>
@@ -316,9 +323,55 @@
       </li>
       <br />
       <li><strong>Way II :</strong> Github [Pull Request]</li>
-    </ol> <hr>
+    </ol>
+    <hr />
     <h2>Pull Command</h2>
-    <mark>git pull origin main</mark> <br>
-    <p>Used to fetch and download content from a remote repo and immediately update the local repo to match that content. </p>
+    <mark>git pull origin main</mark> <br />
+    <p>
+      Used to fetch and download content from a remote repo and immediately
+      update the local repo to match that content.
+    </p>
+
+    <h2>Resolving Merge Conflicts</h2>
+    <p>
+      An event that takes place when git is unable to Automatically resolve
+      difference in code between two commits.
+    </p>
+    <hr />
+    <h2>Undoing changes</h2>
+    <strong>CASE I : Staged changes [add .] </strong> <br />
+    <ul>
+      <li><mark>git reset "file name"</mark></li>
+      <br />
+      <li><mark>git reset</mark></li>
+      <br />
+      <img
+        src="/git-all-commands-/images/undo staged changes (Add .).png"
+        alt=""
+        srcset=""
+        height="700px"
+      />
+    </ul>
+
+    <br />
+    <strong>CAES II : Commited changes [ commit -m ]</strong>
+    <br />
+    <ul>
+      <li><mark> git reset HEAD~1</mark></li> <br>
+      <img src="/git-all-commands-/images/undo commit changes.png" alt="" srcset="" height="700px">
+    </ul>
+    <br>
+
+    <strong>CASE III : Commited changes (for many commits)</strong>
+    <br>
+    <ul><li>
+      <mark>git log (all commits history)</mark>
+    </li> <br>
+    <li>
+      <mark>git reset "commit hash"</mark>
+    </li> <br>
+    <li>
+      <mark>git reset --hard "commit hash"</mark>
+    </li></ul>
   </body>
 </html>
